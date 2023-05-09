@@ -1,0 +1,73 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PERPUSTAKAAN</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/foto/SISWANTO.JPG" alt="logo" class="logo-img">
+            <h1 class="logo-tittle" onclick="index.html">SDN Utan Kayu Selatan 17 Pagi</h1>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#koleksi">koleksi</a></li>
+                <li><a href="mailto:deacode@icloud.com">mail</a></li>
+                <li><a href="https://wa.me/+6281318131894">kontak</a></li>
+            </ul>
+        </nav>
+        <div class="btn-cta">
+            <a href="login.html">LOGIN</a>
+        </div>        
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="tittle">Perpustakaan Digital Sekolah</p>
+            <p class="description">Budayakan Membaca Dimanapun</p>
+            <img src="assets/foto/we.jpeg" alt="we foto 1" class="img-foto"/>
+        </div>
+    </div>
+    <div class="parallax">
+        <div class="koleksi" id="koleksi">
+            <p class="tittle">Bermacam-macam jenis buku bacaan</p>
+            <p class="description">Mata Pelajaran dan Umum</p>
+            <div class="mt-10">
+                <button class="btn-cta" onclick="alert('apa anda yakin !!')">Mari Membaca</button>
+            </div>
+        </div>
+        <div class="container">          
+            <div class="card">
+                <div class="card-item">
+                    <img src="assets/icon/24-hours.png" class="icon" alt="icon 1"/>
+                    <p class="card-tittle">Pelayanan</p>
+                    <p class="card-description">24 jam non-STOP</p>
+                </div>
+                <div class="card-item">
+                    <img src="assets/icon/rating.png " class="icon" alt="icon 2"/>
+                    <p class="card-tittle">Raih Prestasi</p>
+                    <p class="card-description">dengan membaca</p>
+                </div>
+                <div class="card-item">
+                    <img src="assets/icon/partner.png" class="icon" alt="icon 3">
+                    <p class="card-tittle">Terima Kasih</p>
+                    <p class="card-description">telah berkunjung </p>
+                </div>
+            </div>            
+        </div>
+    </div>
+    <footer>
+        <div>
+            <a href="index.html">&copy; lungun 2023</a>
+        </div>
+    </footer>
+    <script>
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/+6281318131894"           
+        }
+    </script>   
+</body>
+</html>
